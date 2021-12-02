@@ -3,6 +3,12 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+import 'font-awesome/css/font-awesome.css'
+import './config/axios'
+import './config/bootstrap'
+import './config/msgToast'
+import './config/vuelidate'
+
 Vue.config.productionTip = false
 
 new Vue({
