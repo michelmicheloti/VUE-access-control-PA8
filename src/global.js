@@ -1,11 +1,5 @@
 import Vue from "vue";
 
-export const laudoKey = "laudo_token";
-
-export const flexFlowKey = "flexFlow_token";
-
-export const smartApprovalKey = "smartApproval_token";
-
 export function showError(e) {
   const obj = e.response.data.errors;
   let msg = "";
@@ -22,4 +16,4 @@ export function showError(e) {
   }
 }
 
-export default { laudoKey, flexFlowKey, smartApprovalKey, showError };
+export default { showError };
